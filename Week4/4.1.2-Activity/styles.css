@@ -1,0 +1,17 @@
+* {
+  border:1px solid black;
+}
+h1, h2, h3 {
+  background-color: #eeeeee;
+  padding:5px;
+  margin:5px;
+}
+a:hover {
+  color:red;
+}
+ul > li {
+  font-weight:bold;
+}
+ol li {
+  line-height:40px;
+}
