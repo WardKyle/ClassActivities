@@ -1212,12 +1212,16 @@ const data = [
 
 // filter the to-dos for incomplete tasks
 let filter1 = data.filter(el => !el.completed);
-console.log(filter1.length);
+// console.log(filter1);
 
 // filter for user 6's tasks
 let filter6 = data.filter(el => el.userId === 6);
-console.log(filter6);
+// console.log(filter6);
+
+// filter for user 6's incomplete tasks
+let newFilter = filter6.filter(el => !el.completed);
+// console.log(newFilter);
 
 // filter for tasks with a title less than 24 characters long
 let shortTitle = data.filter(el => el.title.length < 24);
-console.log(shortTitle);
+// console.log(shortTitle);
